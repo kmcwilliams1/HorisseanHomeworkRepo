@@ -9,6 +9,8 @@ body {
     font-size: 16px;
 }
 
+/* all things header */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +23,9 @@ header h1 {
     font-size: 48px;
 }
 
-header div {
+/* header links */
+
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,7 +33,7 @@ header div {
     font-size: 20px;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -39,6 +43,7 @@ header a {
     text-decoration: none;
 }
 
+/* background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -47,6 +52,7 @@ header a {
     background-position: center;
 }
 
+/* content photo placements */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -63,6 +69,7 @@ header a {
     margin-left: 20px;
 }
 
+/* right side column sizing */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,6 +98,7 @@ header a {
     max-width: 150px;
 }
 
+/* links of the information in the middle of the page */
 .infoLog {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,6 +116,8 @@ header a {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* footer stuff */
 
 footer {
     padding: 30px;
